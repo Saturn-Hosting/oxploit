@@ -5,3 +5,6 @@ data/logs
 data/cache
 data/libraries
 data/usercache.json
+data/.rcon-cli.env
+data/.rcon-cli.yaml
+data/plugins/spark/tmp-client
