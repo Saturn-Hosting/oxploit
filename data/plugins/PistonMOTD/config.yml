@@ -12,7 +12,7 @@
 description:
   activated: true
   text:
-    - "&5[&dOXPLOIT&5]&r&7This is a test."
+    - "&5[&dOXPLOIT&5]&r\n&7This is a test."
 
 # Not supported on: Spigot (Paper works), Sponge
 version:
