@@ -1,7 +1,8 @@
 [
-{
-  "uuid": "a6af531a-67e1-4ed0-9bbc-3e32b35c1ba5",
-  "name": "Havikje12",
-  "level": "4"
-}
+  {
+    "uuid": "a6af531a-67e1-4ed0-9bbc-3e32b35c1ba5",
+    "name": "Havikje12",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
 ]
