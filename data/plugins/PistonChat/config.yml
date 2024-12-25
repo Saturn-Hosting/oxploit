@@ -16,7 +16,7 @@ unignorehard: '&6No longer permanently ignoring &3%player%'
 chatformats:
   default: '&7%player% »'
 
-message-format: '%message%'
+message-format: '&7%message%'
 
 resetafterformat: true
 stripnamecolor: false
