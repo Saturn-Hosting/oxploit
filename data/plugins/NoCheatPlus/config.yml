@@ -247,9 +247,8 @@ checks:
           factor: 0.6
           weight: 2.9
           level: 20.0
-          actions: log:chatfast:2:3:icf cancel cmdc:kickchat:0:5 vl>20 cancel
-            log:chatfast:0:5:cif cmdc:kickchat vl>40 cancel log:chatfast:0:5:cif
-            cmdc:kickchat
+          actions: log:chatfast:2:3:icf cancel cmdc:kickchat:0:5 vl>20 cancel log:chatfast:0:5:cif
+            cmdc:kickchat vl>40 cancel log:chatfast:0:5:cif cmdc:kickchat
       message:
         lettercount: 1.0
         partition: 1.0
@@ -283,8 +282,7 @@ checks:
     warning:
       active: false
       level: 67
-      message: "\n&5[&dOXPLOIT&5]&c Stop spamming or you will be kicked!\n\
-        \ \n"
+      message: "\n&5[&dOXPLOIT&5]&c Stop spamming or you will be kicked!\n \n"
       timeout: 10
     relog:
       active: false
@@ -701,6 +699,39 @@ checks:
       active: default
       actions: cancel log:wrongturn:0:15:icf cmdc:kickillegalrotations:0:10
 strings:
+  kickagainst: ncp kick [player] &c&l(!)&7 Invalid block placements.
+  kickalive: ncp kick [player] &c&l(!)&7 Too many keep-alive packets.
+  kickattackfrequency: ncp kick [player] &c&l(!)&7 Unlikely fast clicking.
+  kickbow: ncp kick [player] &c&l(!)&7 Shooting arrows too quickly.
+  kickbspeed: ncp kick [player] &c&l(!)&7 Too fast block interactions.
+  kickcaptcha: ncp kick [player] &c&l(!)&7 Enter the captcha!
+  kickchat1: ncp tempkick [player] 1 &c&l(!)&7 Do not spam the server chat (1 minute
+    tempkick)
+  kickchat5: ncp tempkick [player] 5 &c&l(!)&7 You are not allowed to spam the server
+    chat (5 minutes tempkick)
+  kickchatfast: ncp kick [player] &c&l(!)&7 Stop spamming.
+  kickchatnormal: ncp kick [player] &c&l(!)&7 Too many chat messages, take a break.
+  kickcommands: ncp tempkick [player] 1 &c&l(!)&7 Do not spam commands (1 minute tempkick)
+  kickcritical: ncp kick [player] &c&l(!)&7 Incorrect movements (Critical cheats?)
+  kickfastbreak: ncp kick [player] &c&l(!)&7 Breaking blocks too fast.
+  kickfastclick: ncp kick [player] &c&l(!)&7 Unlikely inventory interactions.
+  kickfastconsume: ncp kick [player] &c&l(!)&7 Using items too quickly.
+  kickfastheal: ncp kick [player] &c&l(!)&7 Too fast health regeneration.
+  kickfastplace: ncp kick [player] &c&l(!)&7 Placing blocks too quickly.
+  kickfly: ncp kick [player] &c&l(!)&7 Moved unexpectedly.
+  kickflyingfrequency: ncp kick [player] &c&l(!)&7 Kicked for packet spam.
+  kickfrequency: ncp kick [player] &c&l(!)&7 Illegal block-breaking frequency.
+  kickgod: ncp kick [player] &c&l(!)&7 GodMode?
+  kickillegalblockinteract: ncp kick [player] &c&l(!)&7 Illegal block interactions.
+  kickillegalrotations: ncp kick [player] &c&l(!)&7 Invalid rotations.
+  kickimprobable: ncp kick [player] &c&l(!)&7 Illegal client modifications.
+  kickinvaliddata: ncp kick [player] &c&l(!)&7 Invalid book data.
+  kickpacketfrequency: ncp kick [player] &c&l(!)&7 Too many packets.
+  kickpackets: ncp kick [player] &c&l(!)&7 You sent too many moves (extreme lag?)
+  kickscaffold: ncp kick [player] &c&l(!)&7 Unnatural block placements.
+  kickselfhit: ncp kick [player] &c&l(!)&7 You tried to hit yourself!
+  kicksuspiciouscombat: ncp kick [player] &c&l(!)&7 Illegal combat modifications.
+  kickvehiclefly: ncp kick [player] &c&l(!)&7 Unexpected vehicle movement.
   against: '&c[player]&7 failed &c[check]&7: tried to place a block against liquid
     blocks or air as if they were solid &7(&cVL[violations]&7)'
   angle: '&c[player]&7 failed &c[check]&7: potentially tried to hit multiple entities
@@ -774,34 +805,7 @@ strings:
     while performing another action (Tags: &6[tags]&7) &7(&cVL[violations]&7)'
   keepalive: '&c[player]&7 failed &c[check]&7: is spamming keep-alive packets to the
     server &7(&cVL[violations]&7)'
-  kickagainst:
-  kickalive:
-  kickattackfrequency: 
-  kickbow: 
-  kickbspeed:
-  kickcaptcha:
   kickchat: ncp kick [player] You were kicked for spamming.
-  kickcommands:
-  kickcritical: 
-  kickfastbreak:
-  kickfastclick:
-  kickfastconsume:
-  kickfastheal: 
-  kickfastplace:
-  kickfly:
-  kickflyingfrequency:
-  kickfrequency:
-  kickgod:
-  kickillegalblockinteract: 
-  kickillegalrotations: 
-  kickimprobable:
-  kickinvaliddata:
-  kickpacketfrequency:
-  kickpackets:
-  kickscaffold:
-  kickselfhit:
-  kicksuspiciouscombat:
-  kickvehiclefly: 
   kickwb: ncp kick [player] &c&l(!)&7 Block breaking out of sync.
   freachhighvl: '&c[player]&7 failed &c[check]&7: is most likely using a killaura
     cheat (Reach: &6[reachdistance]&7) &7(&cVL[violations]&7)'
