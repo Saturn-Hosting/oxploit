@@ -1,0 +1,25 @@
+[12-26 17:39:04]: [INFO] Created column 'regdate' and set the current timestamp, 1735234744337, to all 0 rows
+[12-26 17:39:04]: [INFO] SQLite Setup finished
+[12-26 17:39:04]: [INFO] No supported permissions system found! Permissions are disabled!
+[12-26 17:39:04]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[12-26 17:39:04]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[12-26 17:39:06]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-26 17:39:06]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-26 17:39:06]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-26 17:39:06]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[12-26 17:39:06]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
