@@ -5,7 +5,7 @@ services:
     environment:
       EULA: "true"
       TYPE: PAPER
-      VIEW_DISTANCE: 10
+      VIEW_DISTANCE: 7
       MEMORY: 7G
     ports:
       - "25565:25565"
