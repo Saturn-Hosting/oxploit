@@ -9,3 +9,4 @@ data/.rcon-cli.env
 data/.rcon-cli.yaml
 data/plugins/spark/tmp-client
 data/plugins/LibreLogin/lib
+data/limbo/region
