@@ -8,5 +8,4 @@ data/usercache.json
 data/.rcon-cli.env
 data/.rcon-cli.yaml
 data/plugins/spark/tmp-client
-data/plugins/AuthMe/authme.db
-data/plugins/AuthMe/authme.log
+data/plugins/LibreLogin/lib
