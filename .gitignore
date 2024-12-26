@@ -10,3 +10,7 @@ data/.rcon-cli.yaml
 data/plugins/spark/tmp-client
 data/plugins/LibreLogin/lib
 data/limbo/region
+data/limbo/data
+data/limbo/level.dat_old
+data/limbo/level.dat
+data/plugins/LibreLogin/user-data.db
