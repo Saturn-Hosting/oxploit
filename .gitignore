@@ -15,3 +15,4 @@ data/limbo/level.dat_old
 data/limbo/level.dat
 data/plugins/LibreLogin/user-data.db
 data/plugins/SkinsRestorer/skins
+data/plugins/SkinsRestorer/cache
