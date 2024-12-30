@@ -17,3 +17,7 @@ data/plugins/LibreLogin/user-data.db
 data/plugins/SkinsRestorer/skins
 data/plugins/SkinsRestorer/cache
 playit
+data/plugins/NoCheatPlus/nocheatplus.log
+data/.papermc-manifest.json
+data/.rcon-cli.env
+data/.rcon-cli.yaml
