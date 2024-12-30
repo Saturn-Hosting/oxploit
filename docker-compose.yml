@@ -13,12 +13,9 @@ services:
       - ./data:/data
     restart: unless-stopped
   playit:
-    container_name: playit
-    image: ghcr.io/mafen/playit-docker:latest
-    restart: unless-stopped
+    image: ghcr.io/playit-cloud/playit-agent:0.15
+    network_mode: host
     environment:
-      -  PLAYIT_SECRET=
-    volumes:
-      - playit/config:/etc/playit
+      -  SECRET_KEY=6a5b199fbe28e8bf6c4dccb8d9e64701385be27b67eaf36161f82d2927ac8598
 volumes:
   mc-paper: {}
