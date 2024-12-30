@@ -12,5 +12,13 @@ services:
     volumes:
       - ./data:/data
     restart: unless-stopped
+  playit:
+    container_name: playit
+    image: ghcr.io/mafen/playit-docker:latest
+    restart: unless-stopped
+    environment:
+      -  PLAYIT_SECRET=
+    volumes:
+      - playit/config:/etc/playit
 volumes:
   mc-paper: {}
