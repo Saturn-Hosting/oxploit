@@ -29,7 +29,7 @@ header-footer:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting
 tablist-name-formatting:
-  enabled: true
+  enabled: false
   anti-override: true
   disable-condition: '%world%=disabledworld'
 
@@ -49,9 +49,9 @@ scoreboard-teams:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Playerlist-Objective
 playerlist-objective:
-  enabled: true
+  enabled: false
   value: "%ping%"
-  fancy-value: "&7Ping: %ping%"
+  fancy-value: "%ping%"
   disable-condition: '%world%=disabledworld'
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
