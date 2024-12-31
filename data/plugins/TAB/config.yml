@@ -2,14 +2,14 @@
 header-footer:
   enabled: true
   header:
-    - "&5[&dOXPLOIT&5]&r"
+    - "&5------[&dOXPLOIT&5]------&r"
     - "&5Hey &r&d%player%&r"
     - "&5Players: &r&d%online%&r &5TPS: &r&d%tps%&r"
     - ""
   footer:
     - ""
-    - "&5Website: &r&d%oxploit.org%&r"
-    - "&5Discord: &r&d%dsc.gg/oxploit%&r"
+    - "&5Website: &r&doxploit.org&r"
+    - "&5Discord: &r&ddsc.gg/oxploit&r"
     - ""
   disable-condition: '%world%=disabledworld'
   per-world:
