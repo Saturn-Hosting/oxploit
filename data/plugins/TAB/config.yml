@@ -1,6 +1,6 @@
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
 header-footer:
-  enabled: true %player%
+  enabled: true
   header:
     - "&5[&dOXPLOIT&5]&r"
     - "&5Hey &r&d%player%&r"
