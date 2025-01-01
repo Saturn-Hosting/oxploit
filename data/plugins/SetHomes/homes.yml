@@ -1,3 +1,10 @@
 allNamedHomes:
   b21b1f98-25e1-34c1-88f5-d91d9f4d78b5: {}
-unknownHomes: {}
+unknownHomes:
+  d9d6e704-8679-325f-b5d3-5140e8ab51be:
+    world: world
+    x: 96.63455768851794
+    y: 66.0
+    z: 105.7519651048579
+    pitch: 19.407389
+    yaw: 1.8308585
